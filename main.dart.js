@@ -93427,7 +93427,7 @@ h=J.ac(i)
 g=A.bV(h.h(i,"token"))
 f=A.bV(h.h(i,"user"))
 f.toString
-n=A.df("https://ticket-resolver-test-api.flyontech.com/api/user/"+A.f(J.av(B.a7.nn(0,f,null),"id")),0,null)
+n=A.df("https://ticket-resolver-test-api.flyontech.com/api/user/"+A.f(J.av(B.a7.nn(0,f,null),"id"))+"/",0,null)
 p=5
 i=t.N
 s=8
