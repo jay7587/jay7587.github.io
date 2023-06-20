@@ -93297,7 +93297,7 @@ s=p}while(true)switch(s){case 0:p=4
 s=7
 return A.z(A.fs(),$async$pR)
 case 7:n=a4
-m="https://ticket-resolver-test-api.flyontech.com/auth/login/"
+m="https://ticket-resolver-api.flyontech.com/auth/login/"
 c=t.N
 l=A.Q(["username",a0,"password",a1],c,c)
 k=B.a7.i9(l)
@@ -93353,7 +93353,7 @@ s=q}while(true)switch(s){case 0:q=3
 s=6
 return A.z(A.fs(),$async$xz)
 case 6:o=a1
-n="https://ticket-resolver-test-api.flyontech.com/auth/reset_password/"
+n="https://ticket-resolver-api.flyontech.com/auth/reset_password/"
 e=t.N
 m=A.Q(["password",a],e,e)
 l=A.bV(J.av(o.a,"token"))
@@ -93393,7 +93393,7 @@ g=J.ac(h)
 f=A.bV(g.h(h,"token"))
 e=A.bV(g.h(h,"user"))
 e.toString
-n=A.df("https://ticket-resolver-test-api.flyontech.com/api/ticket/?engineer_id__id="+A.f(J.av(B.a7.nn(0,e,null),"id"))+"&status__in=ALLOCATION_COMPLETE,ONSITE",0,null)
+n=A.df("https://ticket-resolver-api.flyontech.com/api/ticket/?engineer_id__id="+A.f(J.av(B.a7.nn(0,e,null),"id"))+"&status__in=ALLOCATION_COMPLETE,ONSITE",0,null)
 p=5
 h=t.N
 s=8
@@ -93427,7 +93427,7 @@ h=J.ac(i)
 g=A.bV(h.h(i,"token"))
 f=A.bV(h.h(i,"user"))
 f.toString
-n=A.df("https://ticket-resolver-test-api.flyontech.com/api/user/"+A.f(J.av(B.a7.nn(0,f,null),"id"))+"/",0,null)
+n=A.df("https://ticket-resolver-api.flyontech.com/api/user/"+A.f(J.av(B.a7.nn(0,f,null),"id"))+"/",0,null)
 p=5
 i=t.N
 s=8
@@ -93463,7 +93463,7 @@ d=n
 d.toString
 m=B.a7.nn(0,d,null)
 l=J.av(m,"id")
-k="https://ticket-resolver-test-api.flyontech.com/api/feedback/"
+k="https://ticket-resolver-api.flyontech.com/api/feedback/"
 d=t.N
 j=A.Q(["party_id",a0,"ticket_id",a1,"machine_type",a2,"action_taken",a3,"power",a4,"amp",a5,"frequency",a6,"voltage",a7,"temperature",a8,"item",a9,"sr_no",b0,"engineer_id",A.f(l),"customer_signature",A.f(b1)],d,t.X)
 i=A.bV(J.av(o.a,"token"))
@@ -93505,7 +93505,7 @@ s=p}while(true)switch(s){case 0:p=4
 s=7
 return A.z(A.fs(),$async$pc)
 case 7:n=a4
-m="https://ticket-resolver-test-api.flyontech.com/api/upload_image/"
+m="https://ticket-resolver-api.flyontech.com/api/upload_image/"
 l=A.aQR("POST",A.df(m,0,null))
 k=A.bV(J.av(n.a,"token"))
 l.r.n(0,"Authorization","Bearer "+A.f(k))
@@ -93780,7 +93780,7 @@ s=6
 return A.z(A.fs(),$async$ut)
 case 6:n=b
 m=o.d[0].a
-l="https://ticket-resolver-test-api.flyontech.com/api/start_ticket/"+A.f(m)+"/"
+l="https://ticket-resolver-api.flyontech.com/api/start_ticket/"+A.f(m)+"/"
 f=t.N
 k=A.Q(["status","ONSITE"],f,f)
 j=A.bV(J.av(n.a,"token"))
